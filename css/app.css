@@ -1,0 +1,189 @@
+body {
+	background: #efefef;
+}
+.header {
+	background: #fff;
+	height: 80px;
+	border-bottom: 1px solid #ccc;
+}
+.header img {
+	float: left;
+	margin-top: 7px;
+	width: 300px;
+}
+.header h1 {
+	line-height: 80px;
+	margin: 0;
+	font-size: 26px;
+	margin-left: 80px;
+	font-weight: bold;
+	color:green;
+}
+.header .login {
+	float: right;
+	line-height: 80px;
+}
+.nav {
+	margin-top: 10px;
+	width: 240px;
+	background: #fff;
+	height: 600px;
+	float: left;
+}
+.main {
+	margin-top: 10px;
+	margin-left: 250px;
+	height: 600px;
+	background: #fff;
+}	
+/* 登录模块的样式 */
+.whole-page {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #fff;
+}
+
+.app-login .login-container {
+	background: #efefef;
+	width: 400px;
+	margin: 150px auto;
+	padding: 10px 20px;
+	border-radius: 5px;
+}
+
+.app-login .logo {
+	float:left;
+} 
+.app-container {
+	overflow: hidden;
+	background-color: #EAF7FF;
+}
+.app-container .logoMiddle {
+	overflow: hidden;
+}
+.app-container .logoMiddle img {
+	float:left;
+}
+.app-container .logoMiddle .form {
+	float:right;
+	background-color: #fff;
+	margin-top: 100px;
+	margin-right: 50px;
+	padding-top: 50px;
+	padding-right: 50px;
+
+
+}
+.app-login .form-group {
+	padding: 10px 0;
+	line-height: 30px;
+	margin-bottom: 0px;
+}
+.app-login label {
+	width: 100px;
+	display: inline-block;
+	text-align: right;
+}
+.app-login input {
+	width: 220px;
+	padding-left: 10px;
+}
+.app-login button {
+	width: 300px;
+	margin: 0 auto;
+}
+.app-login .btn-container {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.app-login .error-container {
+	height: 35px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    text-indent: 105px;
+    overflow: hidden;
+}
+.app-login .btn-container .btn {
+	background: green;
+	font-weight: bold;
+	margin-left: 40px;
+}
+.app-login .footer {
+	background-color: #4B4B4B;
+	text-align: center;
+	font-size: 12px;
+	color:#fff;
+	padding:0 3px;
+}
+
+/* 列表样式 */
+.nav h3 {
+	font-size: 18px;
+} 
+
+.app-main {
+	padding: 30px;
+	height: 100%;
+	background: #D5EBF1;
+}
+.app-main h1 {
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 40px;
+}
+.app-main h2 {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 35px;
+	color:green;
+}
+
+
+/* 用户提交页面 */
+.main-inner {
+	padding: 30px;
+}
+.main-inner h2 {
+	font-size: 28px;
+	border-bottom: 1px solid #efefef;
+	line-height: 60px;
+}
+.main-inner .row {
+	height: 60px;
+}
+.main-inner .col-lg-3 {
+	text-align: right;
+}
+
+.nav {
+	background: #DED1CA;
+}
+
+.nav ul {
+	list-style: none;
+}
+.nav ul li h3{
+	font-size: 25px;
+	font-weight: bold;
+}
+.nav ul li h3{
+	font-size: 25px;
+	font-weight: bold;
+}
+.nav ul li a{
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 35px;
+}
+.app-create-news,
+.app-create-user,
+.app-news-detail,
+.app-news-list,
+.app-user-detail,
+.app-user-list {
+	background: #D5EBF1;
+	height: 100%;
+}
